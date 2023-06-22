@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+.corp{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+ 
+    
+}
+.formulaire{ 
+ 
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.titre{ 
+    color: rgb(0, 60, 0);
+    font-weight: bolder;
+    margin-top : 15px;
+    
+}
+input , select { 
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    margin-top : 20px;
+}
+.input-nom-prenom {
+    display: flex;
+}
+.titre-inpute1 { 
+    width: 45%;
+}
+
+.titre-input2{ 
+    width: 45%;
+    margin-left: 30px;
+}
+
+.titre-input{ 
+    padding-right: 20px;
+}
+.input-pays-numero{     
+    display: flex;
+    width: 100%;
+   
+}
+.pays{ 
+    margin-right: 25px;
+    
+}
+.rib{ 
+    margin-right: 10px;
+}
+button { 
+ color: white;   
+background-color: green;
+width: 100%;
+
+font-weight: bold;
+margin-top: 15px;
+padding: 5px ;
+text-align: center;
+cursor: pointer;
+}
+.input-pays-numero  div {     
+  width: 100%;
+   
+}
+
+.logo{ 
+    background-color:white
+    
+}
+.Mobilis h3{ 
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px ;
+    margin-left: 20px;
+}
+
+.mob h5{ 
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+}
